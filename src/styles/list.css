@@ -1,0 +1,34 @@
+.lists {
+    height: 550px;
+    border: 1px solid #c2c5aa;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.lists .values {
+    width: 100%;
+    border: 1px solid #c2c5aa;
+    height: 70px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.lists .values .circle {
+    width: 50px;
+    height: 50px;
+    background: #a8dadc;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.lists .values p {
+    cursor: pointer;
+}

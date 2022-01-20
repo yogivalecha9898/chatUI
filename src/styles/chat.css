@@ -1,0 +1,143 @@
+.chats {
+    width: 95%;
+    border: 1px solid #c2c5aa;
+    height: 550px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chats header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    background: #1d3557;
+    color: #fff;
+    height: 60px;
+}
+
+.chats header .info, .chats header .action {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chats header .action .close {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.chats header .info .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: #a8dadc;
+}
+
+.chats main {
+    width: 100%;
+    overflow-y: scroll;
+    height: 410px;
+    /* position: relative; */
+}
+
+.chats main .chete {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    margin: 10px 0;
+}
+
+.chats main .chete .left {
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 40%;
+}
+
+.chats main .chete .right {
+    position: relative;
+    left: 60%;
+    display: flex;
+    width: 40%;
+    /* border: 1px solid black; */
+    /* background: black; */
+}
+
+.chats main .chete .left .circle, .chats main .chete .right .circle {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: auto;
+    background: #a8dadc;
+} 
+
+.chats main .chete .left p, .chats main .chete .right p {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 80%;
+    background: #caf0f8;
+} 
+
+.chats main .chete .right p {
+    background: #e9ecef;
+}
+
+.chats footer {
+    height: 80px;
+}
+
+.chats footer form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+}
+
+.chats footer form .text {
+    width: 70%;
+    border: 1px solid #c2c5aa;
+    display: flex;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.chats footer form .text input {
+    width: 80%;
+    outline: none;
+    border: none;
+}
+
+.chats footer form .text p {
+    width: 20%;
+    text-align: center;
+    margin: 11px 0;
+    cursor: pointer;
+}
+
+.chats footer form .submit {
+    width: 20%;
+    border-radius: 5px;
+    height: 55%;
+}
+
+.chats footer form .submit input {
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    cursor: pointer;
+    background-color: #1d3557;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
